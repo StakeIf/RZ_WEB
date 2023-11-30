@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<title>Краснов - РЗ</title>
+
+<h2>Модель развития общества</h2>
+<style type="text/css">
+	TD.leftcol {
+		width: 820px;
+		/* Ширина левой колонки с рисунком */
+		vertical-align: top;
+		/* Выравнивание по верхнему краю */
+	}
+</style>
+
+<body>
+	<table width="100%" cellspacing="0" cellpadding="0">
+		<tr>
+			<td class="leftcol"><canvas id="canvas" width="800px" height="500px"
+					style="border: 3px solid #000;"></canvas></td>
+
+			<td valign="top">
+				<h1><time>0 г.</time></h1>
+				<div style="margin-top: 30px;"> </div>
+				<div class="row">
+
+					Изначальная популяция:
+					<div class="col-md-3">
+						<input id="fieldPopulation" type="number" placeholder="20">
+					</div>
+
+					<div style="margin-top: 30px;"></div>
+					Максимальная популяция:
+					<div class="col-md-2">
+						<input id="fieldMAX" type="number" placeholder="60">
+					</div>
+
+					<div style="margin-top: 30px;"></div>
+					Кол-во положительных обстоятельств:
+					<div class="col-md-3">
+						<input id="fieldGood" type="number" placeholder="5">
+					</div>
+
+					<div style="margin-top: 30px;"></div>
+					Кол-во отрицательных обстоятельств:
+					<div class="col-md-2">
+						<input id="fieldBad" type="number" placeholder="5">
+					</div>
+
+					<div style="margin-top: 30px;"></div>
+					<button id="strt">СТАРТ</button>
+					<button id="stp">СТОП</button>
+					<div style="margin-top: 30px;"></div>
+
+					<button id="spd0">X1</button>
+					<button id="spd2">X2</button>
+
+				</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+
+<script src="script.js"></script>
+</html>
